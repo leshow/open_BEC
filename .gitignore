@@ -1,0 +1,25 @@
+# kicad backups and temp files
+*.bak
+*.bck
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+_autosave-*
+*.tmp
+*~
+fp-info-cache
+
+# lock files kicad makes while a file is open
+~*.lck
+
+# per-user ui state (open panels, layer visibility)
+*.kicad_prl
+
+# kicad local history snapshots
+.history/
+
+# exported netlists and autorouter files
+*.net
+*.dsn
+*.ses
