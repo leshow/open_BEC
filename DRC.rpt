@@ -1,8 +1,19 @@
 ** Drc report for micro_bec.kicad_pcb **
-** Created on 2026-11-02T21:25:54 **
+** Created on 2026-11-05T18:42:54 **
 ** Report includes: Errors, Warnings **
 
-** Found 1 DRC violations **
+** Found 4 DRC violations **
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(107.6200 mm, 71.6500 mm): Reference field of L1
+    @(106.6700 mm, 72.3300 mm): Pad 1 [VOUT] of C5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(107.6200 mm, 71.6500 mm): Reference field of L1
+    @(108.5700 mm, 72.3300 mm): Pad 2 [GND] of C5 on F.Cu
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(114.0000 mm, 76.0000 mm): PCB text '5v/9v' on B.Silkscreen
 [lib_footprint_mismatch]: Footprint 'PinHeader_1x04_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'
     Local override; warning
     @(103.7000 mm, 75.8100 mm): Footprint J1
